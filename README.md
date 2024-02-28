@@ -1,6 +1,8 @@
-### Hi there 👋
-
+<h1>Hi, I'm Guilherme! Unity programmer
 <!--
+<h2>👨‍💻 Software Development Projects:</h2>
+
+
 **gfrei/gfrei** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
