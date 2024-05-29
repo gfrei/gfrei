@@ -24,6 +24,7 @@ I integrated the programming team with 2 more devs, creating the architecture fr
 #### Project Description: VR Multiplayer Shooting Arcade
 - 1 year project
 - Team of 4 to 6 people
+- 2019-2020 (8 months)
 - Multiplayer
 - Location-based
 
@@ -38,12 +39,12 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 <h3>Dino Quest 2:</h3>
 
-
-#### Trailer:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=gn_dYnYUzTI
 " target="_blank"><img src="http://img.youtube.com/vi/gn_dYnYUzTI/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
+2020-2022
+Dino Quest 2 is a exploration/management mobile game with two main mechanics, going on expeditions to find fossils, and managing the fossils in the Museum. This was my first commercial Unity mobile game, I worked as the lead game programmer from day 1 to 1.0 release, initially with another programmer, but mostly alone. 
 
 <h3>Bid Wars: Pawn Empire:</h3>
 
