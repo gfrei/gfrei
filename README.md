@@ -46,13 +46,31 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 2020-2022
 Dino Quest 2 is a exploration/management mobile game with two main mechanics, going on expeditions to find fossils, and managing the fossils in the Museum. This was my first commercial Unity mobile game, I worked as the lead game programmer from day 1 to 1.0 release, initially with another programmer, but mostly alone. 
 
-<h3>Bid Wars: Pawn Empire:</h3>
-
+### Bid Wars: Pawn Empire:
 
 #### Trailer:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=a4yDEPUWVrs
 " target="_blank"><img src="http://img.youtube.com/vi/a4yDEPUWVrs/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+
+### Mine Quest 2
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=S9E4GazGXVM
+" target="_blank"><img src="http://img.youtube.com/vi/S9E4GazGXVM/0.jpg" 
+alt="Slink & Snatch Demo" width="240" height="180" border="10" /></a>
+
+Mine Quest 2 is a Mining Exploration RPG mobile game, made in a custom engine. My contribution:
+
+#### Performance
+
+- After a change of components, the mine scene was running very poorly, with frame rate dipping below 1 fps. I was in charge of optimizing this scene
+- My investigation showed that this scene had an average of 600 draw calls, and more than 1400 at its worse.
+- My main steps to improve it:
+ - I've put all background tiles in a unique atlas tileset
+ - I've put all interactable mine objects in another altas
+ - I've changed the draw order to avoid breaking batches
+ - The battle occurs in a overlay over the mine scene. I've taken a snapshot of the scene, add it behind the battle overlay and hid the mine during battle
+- After these changes, I could reduce the draw call count to an average of 50, and enable the game to be played at 60 fps in most targeted devices 
 
 
 <!--
