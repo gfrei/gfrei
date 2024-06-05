@@ -9,7 +9,7 @@
 " target="_blank"><img src="http://img.youtube.com/vi/55Qd2ugDzRI/0.jpg" 
 alt="Slink & Snatch Demo" width="240" height="180" border="10" /></a>
 
-**Slink & Snatch: Tales of Thievery** is a cartoonish VR Stealth Game, with a Collectathon gameplay, such as Sly Cooper and Banjo-Kazooie, targeting Meta Quest 2. This project was a huge challenge for its size and complexity, as the biggest game of the company yet. It started in 2022 as a prototype and is currently in development, with a released Demo.
+**Slink & Snatch: Tales of Thievery** is a cartoonish VR Stealth Game, with a Collectathon core loop, targeting Meta Quest 2. This project is the biggest of the company yet, bringing many challenges, from general architecture to optimization. It started in 2022 as a prototype and is currently in development, with a released Demo.
 
 I integrated the programming team with 2 more devs, creating the architecture from the ground up and implementing countless features, such as items, potions, key and locks, powerups, UI.
 
@@ -19,6 +19,27 @@ I integrated the programming team with 2 more devs, creating the architecture fr
 - **Implemented Enemy AI** The enemy is a complex structure, it has a state cycle, sensors to find the Player, a Nav Mesh Agent. I implemented a Finite State Machine to deal with its many patroling states, changing between Patrol, Investigate, Chase, Shooting, Searching. I achictecture an interface to deal with its sensors, inclusing Vision, Hearing and Touch, to deliver the complex design interactions needed in the feature.   
 
 
+### Dino Quest 2:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=gn_dYnYUzTI
+" target="_blank"><img src="http://img.youtube.com/vi/gn_dYnYUzTI/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+2020-2022
+Dino Quest 2 is a exploration/management mobile game with two main mechanics, going on expeditions to find fossils, and managing the fossils in the Museum. This was my first commercial Unity mobile game, I worked as the lead game programmer from day 1 to 1.0 release, initially with another programmer, but mostly alone. After release, the team increased to 4 programmers.
+
+#### My most notable contributions
+- I've made all the logic in the exploration sites:
+ - 3D grid where the fossils are placed
+ - The logical structure of the entity Fossil, including informations such as size, body part, rarity, 3D bounds
+ - The structure of each exploration site, such as size, dinos included, fossil number range, dificulty, terrain block tiles included
+ - The placement logic and configuration, from fossils to terrain blocks
+- I've made all the logic in the Museum:
+ - 2D grid where objects could be placed
+ - All the actions included in object placement, such as: movementation, rotation, placement, placement check, remotion
+ - Storage logic
+ - Dinossaurs blocks, showing only fossil parts that the player had found
+ - NPC visitors lifecycle, with navigation inside the museum and animations
 
 ### Laser Storm Arena
 #### Project Description: VR Multiplayer Shooting Arcade
@@ -37,16 +58,8 @@ I integrated the programming team with 2 more devs, creating the architecture fr
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
-<h3>Dino Quest 2:</h3>
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=gn_dYnYUzTI
-" target="_blank"><img src="http://img.youtube.com/vi/gn_dYnYUzTI/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
-2020-2022
-Dino Quest 2 is a exploration/management mobile game with two main mechanics, going on expeditions to find fossils, and managing the fossils in the Museum. This was my first commercial Unity mobile game, I worked as the lead game programmer from day 1 to 1.0 release, initially with another programmer, but mostly alone. 
-
 ### Bid Wars: Pawn Empire:
+An auction game with a city management side loop
 
 #### Trailer:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=a4yDEPUWVrs
