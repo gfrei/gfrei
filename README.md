@@ -4,7 +4,6 @@
 [Tapps Games](https://tappsgames.com/) 2015 - 2018
 
 ### Slink & Snatch
-#### Trailer:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=55Qd2ugDzRI
 " target="_blank"><img src="http://img.youtube.com/vi/55Qd2ugDzRI/0.jpg" 
 alt="Slink & Snatch Demo" width="240" height="180" border="10" /></a>
@@ -42,6 +41,10 @@ Dino Quest 2 is a exploration/management mobile game with two main mechanics, go
  - NPC visitors lifecycle, with navigation inside the museum and animations
 
 ### Laser Storm Arena
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=2vE8beTRD-I
+" target="_blank"><img src="http://img.youtube.com/vi/2vE8beTRD-I/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 #### Project Description: VR Multiplayer Shooting Arcade
 - 1 year project
 - Team of 4 to 6 people
@@ -51,11 +54,6 @@ Dino Quest 2 is a exploration/management mobile game with two main mechanics, go
 
 #### Feature highlights:
 
-
-#### Trailer:
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=2vE8beTRD-I
-" target="_blank"><img src="http://img.youtube.com/vi/2vE8beTRD-I/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
 ### Bid Wars: Pawn Empire:
