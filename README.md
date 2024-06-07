@@ -1,6 +1,7 @@
 # Hi, I'm Guilherme! VR Unity programmer
 ## Software Development in studios:
 [Venturion VR](https://en.venturion.com.br/) 2018 - current
+
 [Tapps Games](https://tappsgames.com/) 2015 - 2018
 
 ### Slink & Snatch
