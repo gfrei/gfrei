@@ -6,6 +6,8 @@
 
 [Tapps Games](https://tappsgames.com/) 2015 - 2018
 
+## Project Hightlights (Work in Progress):
+
 ### Slink & Snatch
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=55Qd2ugDzRI
 " target="_blank"><img src="http://img.youtube.com/vi/55Qd2ugDzRI/0.jpg" 
