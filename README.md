@@ -9,18 +9,36 @@
 ## Project Hightlights (Work in Progress):
 
 ### Slink & Snatch
+#### Media:
+
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=55Qd2ugDzRI
 " target="_blank"><img src="http://img.youtube.com/vi/55Qd2ugDzRI/0.jpg" 
 alt="Slink & Snatch Demo" width="240" height="180" border="10" /></a>
 
-**Slink & Snatch: Tales of Thievery** is a cartoonish VR Stealth Game, with a Collectathon core loop, targeting Meta Quest 2. This project is the biggest of the company yet, bringing many challenges, from general architecture to optimization. It started in 2022 as a prototype and is currently in development, with a released Demo.
+#### Description:
 
-I integrated the programming team with 2 more devs, creating the architecture from the ground up and implementing countless features, such as items, potions, key and locks, powerups, UI.
+**Slink & Snatch: Tales of Thievery** is a cartoonish VR Stealth Game with a Collectathon core loop, something like Sly Cooper and Banjo & Kazooie. This was the most challenging project for the company due to its scale and ambition, with a big sandbox city to explore. It started in 2021 as a prototype for PCVR and is currently in development, with a released [Demo on Meta](https://www.meta.com/experiences/8424782484259699/?require_login=true&utm_source=developer.oculus.com&utm_medium=oculusredirect). 
+
+
+#### Tech: 
+Unity / C# / HurricaneVR / SECTR
+
+#### Duration: 
+3 years
+
+#### Team: 
+2 to 6 members, 1 to 3 programmers
+
 
 #### Contribution highlights:
-- **Implemented asset streaming to enable a full city to run at 72 fps on Meta Quest 2**. The project was PC targeted from the beginning, but at a given point we decided to port it to the Meta Quest. There was a huge effort to optimize performance, including basic mesh culling to logic culling, simplifying complex models, mesh colliders and nav-meshes. But the biggest challenge was to have a entire open and interconnected city running at 72 fps without visible loadings. I was leading this task and this is achieved dividing the city in many sections, focusing on a limited tri count on each one, and using a neighbour loader strategy. When the Player is in a given Section, only its neighbours are loaded. When changing sections, the new neighbours got loaded and the old one unloaded. It was also needed to use portals to define when the Player was moving between sections, as each area had complex interconnections, and could be inside one another.
-
-- **Implemented Enemy AI** The enemy is a complex structure, it has a state cycle, sensors to find the Player, a Nav Mesh Agent. I implemented a Finite State Machine to deal with its many patroling states, changing between Patrol, Investigate, Chase, Shooting, Searching. I achictecture an interface to deal with its sensors, inclusing Vision, Hearing and Touch, to deliver the complex design interactions needed in the feature.   
+- **Enemy AI** The enemy is a complex structure, it has a state cycle, sensors to find the Player, a Nav Mesh Agent. I implemented a Finite State Machine to deal with its many patroling states, changing between Patrol, Investigate, Chase, Shooting, Searching. I achictecture an interface to deal with its sensors, inclusing Vision, Hearing and Touch, to deliver the complex design interactions needed in the feature.
+- **Sectorize the city to enable asset streaming**. The city was huge and couldn't run on Quest 2. We needed to divide the terrain, streets and rooms into small chunks to load/unload them while the player was traversing, using SECTR. I took this task, divided the city in many sections, focusing on a limited tri count on each one, and using a neighbour loader strategy. When the Player is in a given Section, only its neighbours are loaded. When changing sections, the new neighbours got loaded and the old one unloaded. It was also needed to use portals to define when the Player was moving between sections, as each area had complex interconnections, and could be inside one another.
+-  **In-game book menu** The Player has a book that shows quests progress, currency counter, collectables progress with hints
+-  **Dominant Hand Changing por left-handed players** This feature was actually very challenging, because it was a late addition, the Player's hands were not developed with this change in mind
+-  **Torch of Disillusion** This item reveals hidden objects on the map
+-  **Health Potion** A potion has heals all health when the Player open the bottle and turns it close the head
+-  **Lock and Key** A feature of locking doors and chests, and opening it with a key
+-  **Game Config (with SciptableObjects)**
 
 
 ### Dino Quest 2:
@@ -32,7 +50,7 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 2020-2022
 Dino Quest 2 is a exploration/management mobile game with two main mechanics, going on expeditions to find fossils, and managing the fossils in the Museum. This was my first commercial Unity mobile game, I worked as the lead game programmer from day 1 to 1.0 release, initially with another programmer, but mostly alone. After release, the team increased to 4 programmers.
 
-#### My most notable contributions
+#### Contribution highlights
 - I've made all the logic in the exploration sites:
  - 3D grid where the fossils are placed
  - The logical structure of the entity Fossil, including informations such as size, body part, rarity, 3D bounds
@@ -90,6 +108,51 @@ Mine Quest 2 is a Mining Exploration RPG mobile game, made in a custom engine. M
 
 
 <!--
+
+Project Template
+Media:
+Description:
+Stack:
+Duration:
+Programming team:
+Highlights:
+
+
+
+Venturion Projects
+
+	Slink & Snatch
+	Faculdade Estacio- LVSIM
+	Laser Storm Arena
+	Dino Quest 2
+	Exorcist: Legion Quest 3 Update
+	Exorcist: Legion Vive Port
+	Game Jam - Table World
+	Petrobras AR
+	Petrobras VR
+	Liga de Combate ao Câncer
+	Venturion
+	Fruit Slash
+	Dead Eye Dungeon
+	
+	Oi Futuro
+	Oi Fibra Hyper VR
+	Treasure Finder AR
+	Nescafé AR
+	Case
+	Emailage
+
+
+
+Tapps Projects
+	Bid Wars 2
+	Mine Quest 2
+	My Boo Town
+
+
+
+
+
 **gfrei/gfrei** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
