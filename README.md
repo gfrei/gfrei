@@ -8,7 +8,7 @@
 
 ## Project Hightlights (Work in Progress):
 
-### Slink & Snatch
+### Slink & Snatch: Tales of Thievery
 #### Media:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=55Qd2ugDzRI
@@ -17,8 +17,7 @@ alt="Slink & Snatch Demo" width="240" height="180" border="10" /></a>
 
 #### Description:
 
-**Slink & Snatch: Tales of Thievery** is a cartoonish VR Stealth Game with a Collectathon core loop, something like Sly Cooper and Banjo & Kazooie. This was the most challenging project for the company due to its scale and ambition, with a big sandbox city to explore. It started in 2021 as a prototype for PCVR and is currently in development, with a released [Demo on Meta](https://www.meta.com/experiences/8424782484259699/?require_login=true&utm_source=developer.oculus.com&utm_medium=oculusredirect). 
-
+**Slink & Snatch** is a cartoonish VR Stealth Game with a Collectathon core loop, something like Sly Cooper and Banjo & Kazooie. This was the most challenging project for the company due to its scale and ambition, with a big sandbox city to explore. It started in 2021 as a prototype for PCVR and is currently in development, with a released [Demo on Meta](https://www.meta.com/experiences/8424782484259699/?require_login=true&utm_source=developer.oculus.com&utm_medium=oculusredirect). 
 
 #### Tech: 
 Unity / C# / HurricaneVR / SECTR
@@ -31,37 +30,58 @@ Unity / C# / HurricaneVR / SECTR
 
 
 #### Contribution highlights:
-- **Enemy AI** The enemy is a complex structure, it has a state cycle, sensors to find the Player, a Nav Mesh Agent. I implemented a Finite State Machine to deal with its many patroling states, changing between Patrol, Investigate, Chase, Shooting, Searching. I achictecture an interface to deal with its sensors, inclusing Vision, Hearing and Touch, to deliver the complex design interactions needed in the feature.
-- **Sectorize the city to enable asset streaming**. The city was huge and couldn't run on Quest 2. We needed to divide the terrain, streets and rooms into small chunks to load/unload them while the player was traversing, using SECTR. I took this task, divided the city in many sections, focusing on a limited tri count on each one, and using a neighbour loader strategy. When the Player is in a given Section, only its neighbours are loaded. When changing sections, the new neighbours got loaded and the old one unloaded. It was also needed to use portals to define when the Player was moving between sections, as each area had complex interconnections, and could be inside one another.
--  **In-game book menu** The Player has a book that shows quests progress, currency counter, collectables progress with hints
--  **Dominant Hand Changing por left-handed players** This feature was actually very challenging, because it was a late addition, the Player's hands were not developed with this change in mind
--  **Torch of Disillusion** This item reveals hidden objects on the map
--  **Health Potion** A potion has heals all health when the Player open the bottle and turns it close the head
--  **Lock and Key** A feature of locking doors and chests, and opening it with a key
--  **Game Config (with SciptableObjects)**
+- **Enemy AI:** The enemy is a complex structure, it has a state cycle, sensors to find the Player, a Nav Mesh Agent. I implemented a Finite State Machine to deal with its many patroling states, changing between Patrol, Investigate, Chase, Shooting, Searching. I achictecture an interface to deal with its sensors, inclusing Vision, Hearing and Touch, to deliver the complex design interactions needed in the feature.
+- **Sectorize the city to enable asset streaming:** The city was huge and couldn't run on Quest 2. We needed to divide the terrain, streets and rooms into small chunks to load/unload them while the player was traversing, using SECTR. I took this task, divided the city in many sections, focusing on a limited tri count on each one, and using a neighbour loader strategy. When the Player is in a given Section, only its neighbours are loaded. When changing sections, the new neighbours got loaded and the old one unloaded. It was also needed to use portals to define when the Player was moving between sections, as each area had complex interconnections, and could be inside one another.
+-  **In-game book menu:** The Player has a book that shows quests progress, currency counter, collectables progress with hints
+-  **Dominant Hand Changing por left-handed players:** This feature was actually very challenging, because it was a late addition, the Player's hands were not developed with this change in mind
+-  **Torch of Disillusion:** This item reveals hidden objects on the map
+-  **Health Potion:** A potion has heals all health when the Player open the bottle and turns it close the head
+-  **Lock and Key:** A feature of locking doors and chests, and opening it with a key
+-  **Player and Game Config:** using with SciptableObjects
 
 
 ### Dino Quest 2:
+#### Media:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=gn_dYnYUzTI
 " target="_blank"><img src="http://img.youtube.com/vi/gn_dYnYUzTI/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-2020-2022
+#### Description:
+
 Dino Quest 2 is a exploration/management mobile game with two main mechanics, going on expeditions to find fossils, and managing the fossils in the Museum. This was my first commercial Unity mobile game, I worked as the lead game programmer from day 1 to 1.0 release, initially with another programmer, but mostly alone. After release, the team increased to 4 programmers.
 
+#### Tech: 
+Unity / C# / Firebase
+
+#### Duration: 
+1.5 years
+
+#### Team: 
+3 to 10 members, 1 to 4 programmers
+
 #### Contribution highlights
-- I've made all the logic in the exploration sites:
+- I've made all the logic in the **exploration sites**:
  - 3D grid where the fossils are placed
  - The logical structure of the entity Fossil, including informations such as size, body part, rarity, 3D bounds
  - The structure of each exploration site, such as size, dinos included, fossil number range, dificulty, terrain block tiles included
  - The placement logic and configuration, from fossils to terrain blocks
-- I've made all the logic in the Museum:
+- I've made all the logic in the **Museum**:
  - 2D grid where objects could be placed
  - All the actions included in object placement, such as: movementation, rotation, placement, placement check, remotion
  - Storage logic
  - Dinossaurs blocks, showing only fossil parts that the player had found
  - NPC visitors lifecycle, with navigation inside the museum and animations
+- **Museum Upgrades**
+ - Expanding the museum with level and currency
+ - Changing the grid space and transfering item data from one to another
+ - Changing the visuals and navmesh in each room
+ - Loading/unloading rooms as you change between them 
+- **Expedition Selection Screen**:
+ - Handle many UI elements on this screen, along with logic
+ - A horizontal scroll list of the expedition sites
+ - A free scroll of the map to show each expedition's location
+ - Logic of showing data on each site, and its states (Locked, Purchase and Open) 
 
 ### Laser Storm Arena
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=2vE8beTRD-I
