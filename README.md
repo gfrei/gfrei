@@ -1,5 +1,5 @@
 # Hi, I'm Guilherme! VR Unity programmer
-[LinkedIn](https://www.linkedin.com/in/guilherme-freire-ba8b7717a)
+[LinkedIn](https://www.linkedin.com/in/freire-guilherme)
 
 [CV](https://drive.google.com/file/d/1lIoYRoXxsfjYGYJAGqcF4RzOvYoVYOUt/view?usp=sharing)
 
