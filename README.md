@@ -39,6 +39,7 @@ alt="Slink & Snatch Demo" width="240" height="180" border="10" /></a>
 -  **Lock and Key:** A feature of locking doors and chests, and opening it with a key
 -  **Player and Game Config:** using with SciptableObjects
 
+---
 
 ### Dino Quest 2:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=gn_dYnYUzTI
@@ -54,7 +55,6 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 #### Description:
 
 **Dino Quest 2** is a exploration/management mobile game with two main mechanics, going on expeditions to find fossils, and managing the fossils in the Museum. This was my first commercial Unity mobile game, I worked as the lead game programmer from day 1 to 1.0 release, initially with another programmer, but mostly alone. After release, the team increased to 4 programmers.
-
 
 #### Contribution highlights
 I've made all the logic in the **exploration sites**:
@@ -82,23 +82,7 @@ I've made all the logic in the **Museum**:
  - A free scroll of the map to show each expedition's location
  - Logic of showing data on each site, and its states (Locked, Purchase and Open) 
 
-### Laser Storm Arena
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=2vE8beTRD-I
-" target="_blank"><img src="http://img.youtube.com/vi/2vE8beTRD-I/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
-**Tech**: Unity VR / C# / Photon / VR
-
-**Duration**: 1 year (2019-2020)
-
-**Team**: 3 to 6 members, 2 to 3 programmers
-
-#### Description:
-
-Laser Storm Arena is a VR Shooting Arena game  
-
-#### Contribution highlights
-
+---
 
 ### LVSIM
 
@@ -123,28 +107,7 @@ I worked as the sole programmer until 1.0 release, so I've made all the logic in
 - Message and voice chat between the players
 - Each patient state option in the Control Panel
 
-
-### Bid Wars: Pawn Empire:
-An auction game with a city management side loop
-
-#### Media:
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=a4yDEPUWVrs
-" target="_blank"><img src="http://img.youtube.com/vi/a4yDEPUWVrs/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
-#### Description:
-
-#### Tech: 
-Custom Engine based on Love2D / Lua / Firebase
-
-#### Duration: 
-2 year (2017-2018)
-
-#### Team: 
-8 to 10 members, 3 to 4 programmers
-
-#### Contribution highlights
-
+---
 
 ### Mine Quest 2
 #### Media:
@@ -157,17 +120,13 @@ alt="Slink & Snatch Demo" width="240" height="180" border="10" /></a>
 
 Mine Quest 2 is a Mining Exploration RPG mobile game
 
-#### Tech: 
-Custom Engine based on Love2D / Lua / Firebase
+**Tech**: Custom Engine based on Love2D / Lua / Firebase
 
-#### Duration: 
-1 month (2017)
+**Duration**: 1 month (2017)
 
-#### Team: 
-Alone
+**Team**: Alone
 
-#### Contribution
-**Performance**
+**Contribution**: Performance
 
 After a change of components, the mine scene was running very poorly, with frame rate dipping below 1 fps. I was in charge of optimizing this scene:
 - My investigation showed that this scene had an average of 600 draw calls, and more than 1400 at its worse.
@@ -178,53 +137,47 @@ After a change of components, the mine scene was running very poorly, with frame
  - The battle occurs in a overlay over the mine scene. I've taken a snapshot of the scene, add it behind the battle overlay and hid the mine during battle
 - After these changes, I could reduce the draw call count to an average of 50, and enable the game to be played at 60 fps in most targeted devices 
 
+---
+
+### Laser Storm Arena
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=2vE8beTRD-I
+" target="_blank"><img src="http://img.youtube.com/vi/2vE8beTRD-I/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+**Tech**: Unity VR / C# / Photon / VR
+
+**Duration**: 1 year (2019-2020)
+
+**Team**: 3 to 6 members, 2 to 3 programmers
+
+#### Description:
+
+Laser Storm Arena is a VR Shooting Arena game  
+
+#### Contribution highlights
+
+---
+
+### Bid Wars: Pawn Empire:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=a4yDEPUWVrs
+" target="_blank"><img src="http://img.youtube.com/vi/a4yDEPUWVrs/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+**Tech**: Custom Engine based on Love2D / Lua / Firebase
+
+**Duration**: 2 year (2017-2018)
+
+**Team**: 8 to 10 members, 3 to 4 programmers
+
+#### Description:
+An auction game with a city management side loop
+
+#### Contribution highlights
+
+---
 
 <!--
-
-Project Template
-Media:
-Description:
-Stack:
-Duration:
-Programming team:
-Highlights:
-
-
-
-Venturion Projects
-
-	Slink & Snatch
-	Faculdade Estacio- LVSIM
-	Laser Storm Arena
-	Dino Quest 2
-	Exorcist: Legion Quest 3 Update
-	Exorcist: Legion Vive Port
-	Game Jam - Table World
-	Petrobras AR
-	Petrobras VR
-	Liga de Combate ao Câncer
-	Venturion
-	Fruit Slash
-	Dead Eye Dungeon
-	
-	Oi Futuro
-	Oi Fibra Hyper VR
-	Treasure Finder AR
-	Nescafé AR
-	Case
-	Emailage
-
-
-
-Tapps Projects
-	Bid Wars 2
-	Mine Quest 2
-	My Boo Town
-
-
-
-
-
 **gfrei/gfrei** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
