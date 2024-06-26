@@ -61,23 +61,26 @@ Unity / C# / Firebase
 3 to 10 members, 1 to 4 programmers
 
 #### Contribution highlights
-- I've made all the logic in the **exploration sites**:
+I've made all the logic in the **exploration sites**:
  - 3D grid where the fossils are placed
  - The logical structure of the entity Fossil, including informations such as size, body part, rarity, 3D bounds
  - The structure of each exploration site, such as size, dinos included, fossil number range, dificulty, terrain block tiles included
- - The placement logic and configuration, from fossils to terrain blocks
-- I've made all the logic in the **Museum**:
+    The placement logic and configuration, from fossils to terrain blocks
+   
+I've made all the logic in the **Museum**:
  - 2D grid where objects could be placed
  - All the actions included in object placement, such as: movementation, rotation, placement, placement check, remotion
  - Storage logic
  - Dinossaurs blocks, showing only fossil parts that the player had found
  - NPC visitors lifecycle, with navigation inside the museum and animations
-- **Museum Upgrades**
+ - 
+**Museum Upgrades**
  - Expanding the museum with level and currency
  - Changing the grid space and transfering item data from one to another
  - Changing the visuals and navmesh in each room
- - Loading/unloading rooms as you change between them 
-- **Expedition Selection Screen**:
+ - Loading/unloading rooms as you change between them
+ - 
+**Expedition Selection Screen**
  - Handle many UI elements on this screen, along with logic
  - A horizontal scroll list of the expedition sites
  - A free scroll of the map to show each expedition's location
