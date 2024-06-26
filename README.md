@@ -16,7 +16,6 @@
 " target="_blank"><img src="http://img.youtube.com/vi/55Qd2ugDzRI/0.jpg" 
 alt="Slink & Snatch Demo" width="240" height="180" border="10" /></a>
 
-
 **Tech**: Unity / C# / HurricaneVR / SECTR / VR
 
 **Duration**: 3 years (2021-2024)
@@ -26,8 +25,6 @@ alt="Slink & Snatch Demo" width="240" height="180" border="10" /></a>
 #### Description:
 
 **Slink & Snatch** is a cartoonish VR Stealth Game with a Collectathon core loop, something like Sly Cooper and Banjo & Kazooie. This was the most challenging project for the company due to its scale and ambition, with a big sandbox city to explore. It started in 2021 as a prototype for PCVR and is currently in development, with a released [Demo on Meta](https://www.meta.com/experiences/8424782484259699/?require_login=true&utm_source=developer.oculus.com&utm_medium=oculusredirect). 
-
-
 
 #### Contribution highlights:
 - **Enemy AI:** The enemy is a complex structure, it has a state cycle, sensors to find the Player, a Nav Mesh Agent. I implemented a Finite State Machine to deal with its many patroling states, changing between Patrol, Investigate, Chase, Shooting, Searching. I achictecture an interface to deal with its sensors, inclusing Vision, Hearing and Touch, to deliver the complex design interactions needed in the feature.
@@ -98,7 +95,6 @@ I've made all the logic in the **Museum**:
 
 LVSIM is a multiplayer Hospital Room simulator for educational purposes. The professor logs in, creates a room and set up a patient, using the control panel. Then the students enter the room and have a interactive medicine class in this room. I was the sole programmer from start to 1.0 launch, and worked with a junior dev on the 1.1 version. 
 
-
 #### Contribution highlights
 I worked as the sole programmer until 1.0 release, so I've made all the logic in the aplication:
 - Online entitlement logic using PlayFab, including login and permissions
@@ -114,7 +110,6 @@ I worked as the sole programmer until 1.0 release, so I've made all the logic in
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=S9E4GazGXVM
 " target="_blank"><img src="http://img.youtube.com/vi/S9E4GazGXVM/0.jpg" 
 alt="Slink & Snatch Demo" width="240" height="180" border="10" /></a>
-
 
 #### Description:
 
@@ -152,9 +147,17 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 #### Description:
 
-Laser Storm Arena is a VR Shooting Arena game  
+Laser Storm Arena is a VR Shooting Arena game. It's played in Arcade arenas, with 4 players in person. It has a timed session and the teams aim for the high score, shooting enemies and avoiding damage. It's played with 4 Quests and a PC to run the local server.
 
 #### Contribution highlights
+- **Shooting**: syncing the state of shooting, hits on enemies and damage in a multiplayer environment
+- **Basic Enemy AI**: develop the decision making, movement, shooting interval, waiting time of the basic enemy
+- **Grabber enemy**: an enemy that remains static until a player looks at it. Then, it grabs this player and the others have to shoot it
+- **Score and Leaderboard**: score is marked individually during the session, but summed at the end to set the team score, which is saved on the PC host
+- **Player Avatar**: each player has an Avatar animated with IK
+
+
+<!--
 
 ---
 
