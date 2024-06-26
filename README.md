@@ -6,7 +6,7 @@
 
 [Tapps Games](https://tappsgames.com/) 2015 - 2018
 
-## Project Hightlights (Work in Progress):
+## Project Hightlights:
 
 ### Slink & Snatch: Tales of Thievery
 #### Media:
@@ -20,10 +20,10 @@ alt="Slink & Snatch Demo" width="240" height="180" border="10" /></a>
 **Slink & Snatch** is a cartoonish VR Stealth Game with a Collectathon core loop, something like Sly Cooper and Banjo & Kazooie. This was the most challenging project for the company due to its scale and ambition, with a big sandbox city to explore. It started in 2021 as a prototype for PCVR and is currently in development, with a released [Demo on Meta](https://www.meta.com/experiences/8424782484259699/?require_login=true&utm_source=developer.oculus.com&utm_medium=oculusredirect). 
 
 #### Tech: 
-Unity / C# / HurricaneVR / SECTR
+Unity / C# / HurricaneVR / SECTR / VR
 
 #### Duration: 
-3 years
+3 years (2021-2024)
 
 #### Team: 
 2 to 6 members, 1 to 3 programmers
@@ -49,13 +49,13 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 #### Description:
 
-Dino Quest 2 is a exploration/management mobile game with two main mechanics, going on expeditions to find fossils, and managing the fossils in the Museum. This was my first commercial Unity mobile game, I worked as the lead game programmer from day 1 to 1.0 release, initially with another programmer, but mostly alone. After release, the team increased to 4 programmers.
+**Dino Quest 2** is a exploration/management mobile game with two main mechanics, going on expeditions to find fossils, and managing the fossils in the Museum. This was my first commercial Unity mobile game, I worked as the lead game programmer from day 1 to 1.0 release, initially with another programmer, but mostly alone. After release, the team increased to 4 programmers.
 
 #### Tech: 
-Unity / C# / Firebase
+Unity / C# / Firebase / Mobile
 
 #### Duration: 
-1.5 years
+1.5 years (2021-2022)
 
 #### Team: 
 3 to 10 members, 1 to 4 programmers
@@ -73,13 +73,13 @@ I've made all the logic in the **Museum**:
  - Storage logic
  - Dinossaurs blocks, showing only fossil parts that the player had found
  - NPC visitors lifecycle, with navigation inside the museum and animations
- - 
+
 **Museum Upgrades**
  - Expanding the museum with level and currency
  - Changing the grid space and transfering item data from one to another
  - Changing the visuals and navmesh in each room
  - Loading/unloading rooms as you change between them
- - 
+
 **Expedition Selection Screen**
  - Handle many UI elements on this screen, along with logic
  - A horizontal scroll list of the expedition sites
@@ -87,40 +87,100 @@ I've made all the logic in the **Museum**:
  - Logic of showing data on each site, and its states (Locked, Purchase and Open) 
 
 ### Laser Storm Arena
+#### Media:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=2vE8beTRD-I
 " target="_blank"><img src="http://img.youtube.com/vi/2vE8beTRD-I/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-#### Project Description: VR Multiplayer Shooting Arcade
-- 1 year project
-- Team of 4 to 6 people
-- 2019-2020 (8 months)
-- Multiplayer
-- Location-based
+#### Description:
 
-#### Feature highlights:
+Laser Storm Arena is a VR Shooting Arena game  
 
+#### Tech: 
+Unity VR / C# / Photon / VR
+
+#### Duration: 
+1 year (2019-2020)
+
+#### Team: 
+3 to 6 members, 2 to 3 programmers
+
+#### Contribution highlights
+
+
+### LVSIM
+
+#### Media:
+[Video](https://drive.google.com/file/d/1xo6MqUfXaP9YXKHXBhJHaPWYLVtsZfMZ/preview)
+
+#### Description:
+
+LVSIM is a multiplayer Hospital Room simulator for educational purposes. The professor logs in, creates a room and set up a patient, using the control panel. Then the students enter the room and have a interactive medicine class in this room. I was the sole programmer from start to 1.0 launch, and worked with a junior dev on the 1.1 version. 
+
+#### Tech: 
+Unity / C# / Photon / PlayFab / PC / Mobile
+
+#### Duration: 
+1.5 years (2022-2023)
+
+#### Team: 
+3 to 8 members, 1 to 2 programmers
+
+#### Contribution highlights
+I worked as the sole programmer until 1.0 release, so I've made all the logic in the aplication:
+- Online entitlement logic using PlayFab, including login and permissions
+- Realtime multiplayer logic with Photon, including rooms, roles and players in each room
+- Patient state sync between everyone in each room
+- Message and voice chat between the players
+- Each patient state option in the Control Panel
 
 
 ### Bid Wars: Pawn Empire:
 An auction game with a city management side loop
 
-#### Trailer:
+#### Media:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=a4yDEPUWVrs
 " target="_blank"><img src="http://img.youtube.com/vi/a4yDEPUWVrs/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
+#### Description:
+
+#### Tech: 
+Custom Engine based on Love2D / Lua / Firebase
+
+#### Duration: 
+2 year (2017-2018)
+
+#### Team: 
+8 to 10 members, 3 to 4 programmers
+
+#### Contribution highlights
+
 
 ### Mine Quest 2
+#### Media:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=S9E4GazGXVM
 " target="_blank"><img src="http://img.youtube.com/vi/S9E4GazGXVM/0.jpg" 
 alt="Slink & Snatch Demo" width="240" height="180" border="10" /></a>
 
-Mine Quest 2 is a Mining Exploration RPG mobile game, made in a custom engine. My contribution:
 
-#### Performance
+#### Description:
 
-- After a change of components, the mine scene was running very poorly, with frame rate dipping below 1 fps. I was in charge of optimizing this scene
+Mine Quest 2 is a Mining Exploration RPG mobile game
+
+#### Tech: 
+Custom Engine based on Love2D / Lua / Firebase
+
+#### Duration: 
+1 month (2017)
+
+#### Team: 
+Alone
+
+#### Contribution
+**Performance**
+
+After a change of components, the mine scene was running very poorly, with frame rate dipping below 1 fps. I was in charge of optimizing this scene:
 - My investigation showed that this scene had an average of 600 draw calls, and more than 1400 at its worse.
 - My main steps to improve it:
  - I've put all background tiles in a unique atlas tileset
