@@ -4,31 +4,29 @@
 [CV](https://drive.google.com/file/d/1lIoYRoXxsfjYGYJAGqcF4RzOvYoVYOUt/view?usp=sharing)
 
 ## Software Development in studios:
-[Venturion VR](https://en.venturion.com.br/) 2018 - current
+[Venturion VR](https://en.venturion.com.br/) (2018 - current)
 
-[Tapps Games](https://tappsgames.com/) 2015 - 2018
+[Tapps Games](https://tappsgames.com/) (2015 - 2018)
 
 ## Project Hightlights:
 
 ### Slink & Snatch: Tales of Thievery
-#### Media:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=55Qd2ugDzRI
 " target="_blank"><img src="http://img.youtube.com/vi/55Qd2ugDzRI/0.jpg" 
 alt="Slink & Snatch Demo" width="240" height="180" border="10" /></a>
 
+
+**Tech**: Unity / C# / HurricaneVR / SECTR / VR
+
+**Duration**: 3 years (2021-2024)
+
+**Team**: 2 to 6 members, 1 to 3 programmers
+
 #### Description:
 
 **Slink & Snatch** is a cartoonish VR Stealth Game with a Collectathon core loop, something like Sly Cooper and Banjo & Kazooie. This was the most challenging project for the company due to its scale and ambition, with a big sandbox city to explore. It started in 2021 as a prototype for PCVR and is currently in development, with a released [Demo on Meta](https://www.meta.com/experiences/8424782484259699/?require_login=true&utm_source=developer.oculus.com&utm_medium=oculusredirect). 
 
-#### Tech: 
-Unity / C# / HurricaneVR / SECTR / VR
-
-#### Duration: 
-3 years (2021-2024)
-
-#### Team: 
-2 to 6 members, 1 to 3 programmers
 
 
 #### Contribution highlights:
@@ -43,24 +41,20 @@ Unity / C# / HurricaneVR / SECTR / VR
 
 
 ### Dino Quest 2:
-#### Media:
-
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=gn_dYnYUzTI
 " target="_blank"><img src="http://img.youtube.com/vi/gn_dYnYUzTI/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+**Tech**: Unity / C# / Firebase / Mobile
+
+**Duration**: 1.5 years (2021-2022)
+
+**Team**: 3 to 10 members, 1 to 4 programmers
 
 #### Description:
 
 **Dino Quest 2** is a exploration/management mobile game with two main mechanics, going on expeditions to find fossils, and managing the fossils in the Museum. This was my first commercial Unity mobile game, I worked as the lead game programmer from day 1 to 1.0 release, initially with another programmer, but mostly alone. After release, the team increased to 4 programmers.
 
-#### Tech: 
-Unity / C# / Firebase / Mobile
-
-#### Duration: 
-1.5 years (2021-2022)
-
-#### Team: 
-3 to 10 members, 1 to 4 programmers
 
 #### Contribution highlights
 I've made all the logic in the **exploration sites**:
@@ -89,44 +83,37 @@ I've made all the logic in the **Museum**:
  - Logic of showing data on each site, and its states (Locked, Purchase and Open) 
 
 ### Laser Storm Arena
-#### Media:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=2vE8beTRD-I
 " target="_blank"><img src="http://img.youtube.com/vi/2vE8beTRD-I/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
+**Tech**: Unity VR / C# / Photon / VR
+
+**Duration**: 1 year (2019-2020)
+
+**Team**: 3 to 6 members, 2 to 3 programmers
+
 #### Description:
 
 Laser Storm Arena is a VR Shooting Arena game  
-
-#### Tech: 
-Unity VR / C# / Photon / VR
-
-#### Duration: 
-1 year (2019-2020)
-
-#### Team: 
-3 to 6 members, 2 to 3 programmers
 
 #### Contribution highlights
 
 
 ### LVSIM
 
-#### Media:
 [Video](https://drive.google.com/file/d/1xo6MqUfXaP9YXKHXBhJHaPWYLVtsZfMZ/preview)
+
+**Tech**: Unity / C# / Photon / PlayFab / PC / Mobile
+
+**Duration**: 1.5 years (2022-2023)
+
+**Team**: 3 to 8 members, 1 to 2 programmers
 
 #### Description:
 
 LVSIM is a multiplayer Hospital Room simulator for educational purposes. The professor logs in, creates a room and set up a patient, using the control panel. Then the students enter the room and have a interactive medicine class in this room. I was the sole programmer from start to 1.0 launch, and worked with a junior dev on the 1.1 version. 
 
-#### Tech: 
-Unity / C# / Photon / PlayFab / PC / Mobile
-
-#### Duration: 
-1.5 years (2022-2023)
-
-#### Team: 
-3 to 8 members, 1 to 2 programmers
 
 #### Contribution highlights
 I worked as the sole programmer until 1.0 release, so I've made all the logic in the aplication:
