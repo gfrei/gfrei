@@ -11,10 +11,13 @@
 ## Project Hightlights:
 
 ### Slink & Snatch: Tales of Thievery
+#### Trailer:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=55Qd2ugDzRI
 " target="_blank"><img src="http://img.youtube.com/vi/55Qd2ugDzRI/0.jpg" 
 alt="Slink & Snatch Demo" width="240" height="180" border="10" /></a>
+
+[Meta](https://www.meta.com/experiences/8424782484259699/?require_login=true&utm_source=developer.oculus.com&utm_medium=oculusredirect)
 
 **Tech**: Unity / C# / HurricaneVR / SECTR / VR
 
@@ -39,9 +42,14 @@ alt="Slink & Snatch Demo" width="240" height="180" border="10" /></a>
 ---
 
 ### Dino Quest 2:
+#### Trailer:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=gn_dYnYUzTI
 " target="_blank"><img src="http://img.youtube.com/vi/gn_dYnYUzTI/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+[Android](https://play.google.com/store/apps/details?id=com.tapps.games.dig.dinoquest2&hl=en)
+
+[iOS](https://apps.apple.com/br/app/dino-quest-2-museu-jur%C3%A1ssico/id1580107903)
 
 **Tech**: Unity / C# / Firebase / Mobile
 
@@ -106,10 +114,14 @@ I worked as the sole programmer until 1.0 release, so I've made all the logic in
 ---
 
 ### Mine Quest 2
-#### Media:
+#### Trailer:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=S9E4GazGXVM
 " target="_blank"><img src="http://img.youtube.com/vi/S9E4GazGXVM/0.jpg" 
 alt="Slink & Snatch Demo" width="240" height="180" border="10" /></a>
+
+[Android](https://play.google.com/store/search?q=mine%20quest%202&c=apps&hl=en)
+
+[iOS](https://apps.apple.com/us/app/mine-quest-2-idle-mining-rpg/id1105121264)
 
 #### Description:
 
@@ -135,6 +147,7 @@ After a change of components, the mine scene was running very poorly, with frame
 ---
 
 ### Laser Storm Arena
+#### Trailer:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=2vE8beTRD-I
 " target="_blank"><img src="http://img.youtube.com/vi/2vE8beTRD-I/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
@@ -163,6 +176,7 @@ Laser Storm Arena is a VR Shooting Arena game. It's played in Arcade arenas, wit
 
 ### Bid Wars: Pawn Empire:
 
+#### Trailer:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=a4yDEPUWVrs
 " target="_blank"><img src="http://img.youtube.com/vi/a4yDEPUWVrs/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
