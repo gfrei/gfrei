@@ -1,7 +1,7 @@
 # Hi, I'm Guilherme! VR Unity programmer
 [LinkedIn](https://www.linkedin.com/in/freire-guilherme)
 
-[CV](https://drive.google.com/file/d/1vBfsRWPGN8j-FS6R1UwG6rB8hlZyNtro/view?usp=sharing)
+[CV](https://drive.google.com/file/d/1o18kL7rxoHySof2F1MkRtULCU7sX_qzk/view?usp=sharing)
 
 ## Software Development in studios:
 [Venturion VR](https://en.venturion.com.br/) (2018 - current)
