@@ -88,6 +88,34 @@ I've made all the logic in the **Museum**:
  - Logic of showing data on each site, and its states (Locked, Purchase and Open) 
 
 ---
+### BOSCH - Desafio de Eficiência
+
+**Tech**: Unity / C# / DialogueSystem / PC
+
+**Duration**: 4 months (2024-2025)
+
+**Team**: 8 members, 2 programmers
+
+#### Description:
+
+Corporative training game inspired by Disco Elysium, in which I acted as the lead programmer, creating the architecture and implementing the main features.  I also managed the other team members, delegating tasks and validating them.
+
+#### Contribution highlights
+- Broke down the main features on pre producing, presenting a realistic time estimative
+- Reseached and implemented third party libraries to speed up development
+- Presented a guide to the team to use those third party libraries
+- Implemented the core features
+- Managed and delegated tasks to other team members
+  
+#### Feature highlights
+- Dialogue System
+- Save/Load
+- Progression management
+- Scoring system
+- Interactable objects and NPCs
+- 3D movement with mouse or WASD keys
+
+---
 
 ### LVSIM
 
