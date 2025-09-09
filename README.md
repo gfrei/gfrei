@@ -1,4 +1,4 @@
-# Hi, I'm Guilherme! VR Unity programmer
+# Hi, I'm Guilherme! Software developer | VR Unity programmer
 [LinkedIn](https://www.linkedin.com/in/freire-guilherme)
 
 [CV](https://drive.google.com/file/d/1o18kL7rxoHySof2F1MkRtULCU7sX_qzk/view?usp=sharing)
