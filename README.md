@@ -4,7 +4,7 @@
 [CV](https://drive.google.com/file/d/1o18kL7rxoHySof2F1MkRtULCU7sX_qzk/view?usp=sharing)
 
 ## Software Development in studios:
-[Venturion VR](https://en.venturion.com.br/) (2018 - current)
+[Venturion VR](https://en.venturion.com.br/) (2018 - 2025)
 
 [Tapps Games](https://tappsgames.com/) (2015 - 2018)
 
