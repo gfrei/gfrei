@@ -1,14 +1,14 @@
-# Hi, I'm Guilherme! Software developer | VR Unity programmer
+# Hi, I'm Guilherme! Software Engineer | VR Unity Programmer
 [LinkedIn](https://www.linkedin.com/in/freire-guilherme)
 
-[CV](https://drive.google.com/file/d/1o18kL7rxoHySof2F1MkRtULCU7sX_qzk/view?usp=sharing)
+[CV](https://drive.google.com/file/d/1g2Pe8FSXlSC_umqzyZNWOg19g8SlP5iy/view?usp=sharing)
 
-## Software Development in studios:
+## Software Development Studios:
 [Venturion VR](https://en.venturion.com.br/) (2018 - 2025)
 
 [Tapps Games](https://tappsgames.com/) (2015 - 2018)
 
-## Project Hightlights:
+## Project Highlights:
 
 ### Slink & Snatch: Tales of Thievery
 #### Trailer:
@@ -27,17 +27,17 @@ alt="Slink & Snatch Demo" width="240" height="180" border="10" /></a>
 
 #### Description:
 
-**Slink & Snatch** is a cartoonish VR Stealth Game with a Collectathon core loop, something like Sly Cooper and Banjo & Kazooie. This was the most challenging project for the company due to its scale and ambition, with a big sandbox city to explore. It started in 2021 as a prototype for PCVR and is currently in development, with a released [Demo on Meta](https://www.meta.com/experiences/8424782484259699/?require_login=true&utm_source=developer.oculus.com&utm_medium=oculusredirect). 
+**Slink & Snatch** is a cartoonish VR stealth game with a collectathon core loop, similar to Sly Cooper and Banjo-Kazooie. This was the most challenging project for the company due to its scale and ambition, featuring a large sandbox city to explore. It started in 2021 as a PCVR prototype and is currently in development, with a [Demo released on Meta](https://www.meta.com/experiences/8424782484259699/?require_login=true&utm_source=developer.oculus.com&utm_medium=oculusredirect).
 
 #### Contribution highlights:
-- **Enemy AI:** The enemy is a complex structure, it has a state cycle, sensors to find the Player, a Nav Mesh Agent. I implemented a Finite State Machine to deal with its many patroling states, changing between Patrol, Investigate, Chase, Shooting, Searching. I designed an interface to deal with its sensors, including Vision, Hearing and Touch, to deliver the complex design interactions needed in the feature.
-- **Sectorize the city to enable asset streaming:** The city was huge and couldn't run on Quest 2. We needed to divide the terrain, streets and rooms into small chunks to load/unload them while the player was traversing, using SECTR. I took this task, divided the city in many sections, focusing on a limited tri count on each one, and using a neighbour loader strategy. When the Player is in a given Section, only its neighbours are loaded. When changing sections, the new neighbours got loaded and the old one unloaded. It was also needed to use portals to define when the Player was moving between sections, as each area had complex interconnections, and could be inside one another.
--  **In-game book menu:** The Player has a book that shows quests progress, currency counter, collectables progress with hints
--  **Dominant Hand Changing for left-handed players:** This feature was actually very challenging, because it was a late addition, the Player's hands were not developed with this change in mind
--  **Torch of Disillusion:** This item reveals hidden objects on the map
--  **Health Potion:** A potion has heals all health when the Player open the bottle and turns it close the head
--  **Lock and Key:** A feature of locking doors and chests, and opening it with a key
--  **Player and Game Config:** using with SciptableObjects
+- **Enemy AI:** The enemy AI has a complex structure, with a state cycle, sensors to detect the player, and a NavMesh Agent. I implemented a Finite State Machine to handle its various states, switching between Patrol, Investigate, Chase, Shooting, and Searching. I also designed an interface to handle its sensors, including Vision, Hearing, and Touch, supporting the complex interactions required by the feature.
+- **Sectorizing the city to enable asset streaming:** The city was huge and couldn't run on Quest 2. We needed to divide the terrain, streets, and rooms into smaller chunks that could be loaded and unloaded as the player moved through the city, using SECTR. I took on this task, dividing the city into multiple sections and focusing on keeping the triangle count within a limit for each one, using a neighbor-loading strategy. When the player is in a given section, only its neighboring sections are loaded. When changing sections, the new neighbors are loaded and the old ones are unloaded. We also needed to use portals to define when the player was moving between sections, as each area had complex interconnections and could overlap with others.
+- **In-game book menu:** The player has a book that displays quest progress, a currency counter, and collectible progress with hints.
+- **Dominant hand switching for left-handed players:** This feature was particularly challenging because it was added late in development, and the player's hands had not been designed with this change in mind.
+- **Torch of Disillusion:** An item that reveals hidden objects on the map.
+- **Health Potion:** A potion that restores all health when the player opens the bottle and turns it upside down near their head.
+- **Lock and Key:** A feature that allows players to lock doors and chests and open them with a key.
+- **Player and Game Configuration:** Implemented using ScriptableObjects.
 
 ---
 
@@ -59,35 +59,37 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 #### Description:
 
-**Dino Quest 2** is a exploration/management mobile game with two main mechanics, going on expeditions to find fossils, and managing the fossils in the Museum. This was my first commercial Unity mobile game, I worked as the lead game programmer from day 1 to 1.0 release, initially with another programmer, but mostly alone. After release, the team increased to 4 programmers.
+**Dino Quest 2** is an exploration/management mobile game with two main mechanics: going on expeditions to find fossils and managing those fossils in the Museum. This was my first commercial Unity mobile game. I worked as the lead game programmer from day one until the 1.0 release, initially alongside another programmer, but mostly on my own. After release, the team grew to 4 programmers.
 
 #### Contribution highlights
-I've made all the logic in the **exploration sites**:
- - 3D grid where the fossils are placed
- - The logical structure of the entity Fossil, including informations such as size, body part, rarity, 3D bounds
- - The structure of each exploration site, such as size, dinos included, fossil number range, dificulty, terrain block tiles included
-    The placement logic and configuration, from fossils to terrain blocks
-   
-I've made all the logic in the **Museum**:
- - 2D grid where objects could be placed
- - All the actions included in object placement, such as: movementation, rotation, placement, placement check, remotion
- - Storage logic
- - Dinossaurs blocks, showing only fossil parts that the player had found
- - NPC visitors lifecycle, with navigation inside the museum and animations
+
+I implemented all the logic for the **exploration sites**:
+- 3D grid where the fossils are placed
+- The logical structure of the Fossil entity, including information such as size, body part, rarity, and 3D bounds
+- The structure of each exploration site, including size, dinosaurs, fossil number range, difficulty, and terrain block tiles
+- Placement logic and configuration, from fossils to terrain blocks
+
+I implemented all the logic for the **Museum**:
+- 2D grid where objects could be placed
+- All actions related to object placement, such as movement, rotation, placement, placement validation, and removal
+- Storage logic
+- Dinosaur displays, showing only the fossil parts that the player had found
+- NPC visitor lifecycle, including navigation inside the museum and animations
 
 **Museum Upgrades**
- - Expanding the museum with level and currency
- - Changing the grid space and transfering item data from one to another
- - Changing the visuals and navmesh in each room
- - Loading/unloading rooms as you change between them
+- Expanding the museum through levels and currency
+- Changing the grid space and transferring item data from one grid to another
+- Updating visuals and NavMesh in each room
+- Loading and unloading rooms as the player moves between them
 
 **Expedition Selection Screen**
- - Handle many UI elements on this screen, along with logic
- - A horizontal scroll list of the expedition sites
- - A free scroll of the map to show each expedition's location
- - Logic of showing data on each site, and its states (Locked, Purchase and Open) 
+- Handling multiple UI elements on this screen, along with their logic
+- A horizontal scroll list of expedition sites
+- Free scrolling of the map to display each expedition's location
+- Logic for displaying data about each site and its states (Locked, Purchase, and Open)
 
 ---
+
 ### BOSCH - Desafio de Eficiência
 
 **Tech**: Unity / C# / DialogueSystem / PC
@@ -98,22 +100,22 @@ I've made all the logic in the **Museum**:
 
 #### Description:
 
-Corporative training game inspired by Disco Elysium, in which I acted as the lead programmer, creating the architecture and implementing the main features.  I also managed the other team members, delegating tasks and validating them.
+Corporate training game inspired by Disco Elysium, in which I acted as the lead programmer, designing the architecture and implementing the main features. I also managed the other team members, delegating tasks and reviewing their work.
 
 #### Contribution highlights
-- Broke down the main features on pre producing, presenting a realistic time estimative
-- Reseached and implemented third party libraries to speed up development
-- Presented a guide to the team to use those third party libraries
+- Broke down the main features during pre-production and provided realistic time estimates
+- Researched and implemented third-party libraries to speed up development
+- Created a guide to help the team use those third-party libraries
 - Implemented the core features
 - Managed and delegated tasks to other team members
-  
+
 #### Feature highlights
 - Dialogue System
 - Save/Load
 - Progression management
 - Scoring system
 - Interactable objects and NPCs
-- 3D movement with mouse or WASD keys
+- 3D movement using the mouse or WASD keys
 
 ---
 
@@ -129,15 +131,15 @@ Corporative training game inspired by Disco Elysium, in which I acted as the lea
 
 #### Description:
 
-LVSIM is a multiplayer Hospital Room simulator for educational purposes. The professor logs in, creates a room and set up a patient, using the control panel. Then the students enter the room and have a interactive medicine class in this room. I was the sole programmer from start to 1.0 launch, and worked with a junior dev on the 1.1 version. 
+LVSIM is a multiplayer hospital room simulator for educational purposes. The professor logs in, creates a room, and sets up a patient using the control panel. Students then enter the room and participate in an interactive medical class. I was the sole programmer from the start until the 1.0 launch, and worked with a junior developer on version 1.1.
 
 #### Contribution highlights
-I worked as the sole programmer until 1.0 release, so I've made all the logic in the aplication:
+I worked as the sole programmer until the 1.0 release, so I implemented all the application logic:
 - Online entitlement logic using PlayFab, including login and permissions
-- Realtime multiplayer logic with Photon, including rooms, roles and players in each room
-- Patient state sync between everyone in each room
-- Message and voice chat between the players
-- Each patient state option in the Control Panel
+- Real-time multiplayer logic with Photon, including rooms, roles, and players in each room
+- Patient state synchronization between everyone in each room
+- Text and voice chat between players
+- Logic for each patient state option in the Control Panel
 
 ---
 
@@ -153,24 +155,24 @@ alt="Slink & Snatch Demo" width="240" height="180" border="10" /></a>
 
 #### Description:
 
-Mine Quest 2 is a Mining Exploration RPG mobile game
+Mine Quest 2 is a mobile mining exploration RPG.
 
 **Tech**: Custom Engine based on Love2D / Lua / Firebase
 
 **Duration**: 1 month (2017)
 
-**Team**: Alone
+**Team**: Solo
 
 **Contribution**: Performance
 
-After a change of components, the mine scene was running very poorly, with frame rate dipping below 1 fps. I was in charge of optimizing this scene:
-- My investigation showed that this scene had an average of 600 draw calls, and more than 1400 at its worse.
-- My main steps to improve it:
- - I've put all background tiles in a unique atlas tileset
- - I've put all interactable mine objects in another altas
- - I've changed the draw order to avoid breaking batches
- - The battle occurs in a overlay over the mine scene. I've taken a snapshot of the scene, add it behind the battle overlay and hid the mine during battle
-- After these changes, I could reduce the draw call count to an average of 50, and enable the game to be played at 60 fps in most targeted devices 
+After a change in components, the mine scene was running very poorly, with the frame rate dropping below 1 FPS. I was responsible for optimizing this scene:
+- My investigation showed that the scene had an average of 600 draw calls, reaching more than 1,400 at its worst.
+- My main steps to improve performance:
+  - Combined all background tiles into a single atlas tileset
+  - Combined all interactable mine objects into another atlas
+  - Changed the draw order to avoid breaking batches
+  - Since battles take place in an overlay on top of the mine scene, I took a snapshot of the scene, displayed it behind the battle overlay, and hid the mine scene during battles
+- After these changes, I reduced the average draw call count to 50 and enabled the game to run at 60 FPS on most target devices.
 
 ---
 
@@ -188,15 +190,14 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 #### Description:
 
-Laser Storm Arena is a VR Shooting Arena game. It's played in Arcade arenas, with 4 players in person. It has a timed session and the teams aim for the high score, shooting enemies and avoiding damage. It's played with 4 Quests and a PC to run the local server.
+Laser Storm Arena is a VR shooting arena game played in arcade venues, with 4 players playing together in person. Each session is timed, and the teams aim for the highest score by shooting enemies and avoiding damage. The game is played using 4 Quest headsets and a PC running the local server.
 
 #### Contribution highlights
-- **Shooting**: syncing the state of shooting, hits on enemies and damage in a multiplayer environment
-- **Basic Enemy AI**: develop the decision making, movement, shooting interval, waiting time of the basic enemy
-- **Grabber enemy**: an enemy that remains static until a player looks at it. Then, it grabs this player and the others have to shoot it
-- **Score and Leaderboard**: score is marked individually during the session, but summed at the end to set the team score, which is saved on the PC host
-- **Player Avatar**: each player has an Avatar animated with IK
-
+- **Shooting:** Synchronizing shooting states, enemy hits, and damage in a multiplayer environment
+- **Basic Enemy AI:** Developing the decision-making, movement, shooting intervals, and waiting times of the basic enemy
+- **Grabber enemy:** An enemy that remains static until a player looks at it. It then grabs that player, and the other players must shoot it.
+- **Score and Leaderboard:** Scores are tracked individually during the session and summed at the end to determine the team score, which is saved on the host PC.
+- **Player Avatar:** Each player has an animated avatar using IK.
 
 <!--
 
@@ -211,12 +212,12 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 **Tech**: Custom Engine based on Love2D / Lua / Firebase
 
-**Duration**: 2 year (2017-2018)
+**Duration**: 2 years (2017-2018)
 
 **Team**: 8 to 10 members, 3 to 4 programmers
 
 #### Description:
-An auction game with a city management side loop
+An auction game with a city management side loop.
 
 #### Contribution highlights
 
